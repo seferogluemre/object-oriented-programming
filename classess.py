@@ -73,22 +73,26 @@ ageSalaryRatio(emp1.age, emp1.salary)
 
 
 
-pi=3.14
-r=5
-area=pi*r**2
+
 
 
 def find_area(a,b):
     area=a*b**2
-    print("AREA",area)
+    return area
 
 
 
+pi=3.14
+r=5
 
-find_area(pi,r)
 
+result1 = find_area(pi,r)
+print(result1)
 
+result2 = find_area(pi,10)
+print(result2)
 
+print("Alan",result1+result2)
 
 
 
