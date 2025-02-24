@@ -48,7 +48,6 @@ s1.area1()
 
 
 
-
 class Emp(object):
     
     age = 25
@@ -75,7 +74,6 @@ ageSalaryRatio(emp1.age, emp1.salary)
 
 
 
-
 def find_area(a,b):
     area=a*b**2
     return area
@@ -93,6 +91,25 @@ result2 = find_area(pi,10)
 print(result2)
 
 print("Alan",result1+result2)
+
+
+
+
+
+
+
+
+class Animal(object):
+    
+
+
+
+
+
+
+
+
+
 
 
 
