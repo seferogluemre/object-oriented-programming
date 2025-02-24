@@ -35,9 +35,12 @@ class Bird(Animal):
 
 
 
+
+b1=Bird()
 m1=Monkey() 
 m1.toString()
 m1.walk()
+b1.fly()
 
 
 
