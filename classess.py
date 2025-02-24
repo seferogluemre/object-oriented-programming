@@ -100,17 +100,24 @@ print("Alan",result1+result2)
 
 
 class Animal(object):
-    name="Dog"
-    age=2
+   
     
-    def getAge(self):
-        return self.age
+    
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+        
+        
+    
+    
+    def getAnimal(self):
+        return {self.age,self.name}
+
+    
 
 
-
-
-a1=Animal()
-print(a1.getAge())
+a1=Animal("Brid",0.8)
+print(a1.getAnimal())
 
 
 
