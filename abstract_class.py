@@ -1,15 +1,21 @@
 from abc import ABC,abstractmethod
 
 
-class Animal:
-    @abstractmethod
+class Animal(ABC):
+    
+     @abstractmethod
  
-     def walk(): pass   
+     def walk(self): pass   
+ 
+     def run(self):pass   
  
 
 class Bird(Animal):
-    pass
+
+    def __init__(self):
+        print("Bird")
 
 
-a=Animal()
+
+b1=Bird()
     
