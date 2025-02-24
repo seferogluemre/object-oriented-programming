@@ -100,15 +100,17 @@ print("Alan",result1+result2)
 
 
 class Animal(object):
+    name="Dog"
+    age=2
     
+    def getAge(self):
+        return self.age
 
 
 
 
-
-
-
-
+a1=Animal()
+print(a1.getAge())
 
 
 
