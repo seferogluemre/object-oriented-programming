@@ -16,6 +16,12 @@ class Bird(Animal):
         print("Bird")
 
 
+    def walk(self): print("Walk")   
+
+    def run(self):print("Run")   
+
+
+
 
 b1=Bird()
     
