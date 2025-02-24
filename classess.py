@@ -55,7 +55,8 @@ class Emp(object):
     salary=1000
     
     def ageSalaryRatio(self):
-        print(self.age / self.salary)
+        a = self.age / self.salary
+        print("FUNCTİON",a)
 
 
 
@@ -72,13 +73,19 @@ ageSalaryRatio(emp1.age, emp1.salary)
 
 
 
+pi=3.14
+r=5
+area=pi*r**2
+
+
+def find_area(a,b):
+    area=a*b**2
+    print("AREA",area)
 
 
 
 
-
-
-
+find_area(pi,r)
 
 
 
