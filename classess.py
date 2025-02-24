@@ -35,15 +35,16 @@ class Square(object):
     
     def area(self):
         area = self.edge*self.edge
-    
+        print(area)
 
 s1=Square()
+
 
 print(s1)
 print(s1.edge)
 
 s1.area()
-print(s1.edge)
+
 
 
 
