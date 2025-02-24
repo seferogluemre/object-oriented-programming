@@ -96,9 +96,6 @@ print("Alan",result1+result2)
 
 
 
-
-
-
 class Animal(object):
    
     
@@ -118,26 +115,6 @@ class Animal(object):
 
 a1=Animal("Brid",0.8)
 print(a1.getAnimal())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
