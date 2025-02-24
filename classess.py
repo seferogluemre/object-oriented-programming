@@ -20,3 +20,5 @@ class Footballer:
 f1=Footballer()
 
 print(f1)
+
+print("Futbolcunun Yaşı"+str(f1.age)+" ve kulübü"+f1.football_club)
