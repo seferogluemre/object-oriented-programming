@@ -33,7 +33,20 @@ class Square(object):
     
     edge=5 # Meter
     
+    def area(self):
+        area = self.edge*self.edge
+    
 
 s1=Square()
+
 print(s1)
 print(s1.edge)
+
+s1.area()
+print(s1.edge)
+
+
+
+
+
+
