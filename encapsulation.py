@@ -2,7 +2,7 @@ class BankAccount(object):
      
     def __init__(self,name,money,address):
         self.name=name
-        self.money=money
+        self.__money=money
         self.address=address
         
         
@@ -14,4 +14,5 @@ print(p1.money)
 
 p1.money+=p2.money
 print(p1.money)
-print(p2.money)
+
+
