@@ -18,3 +18,34 @@ class Square(Shape):
 
     def area(self):
         result = self.__edge**2
+        print("Square area "+result)
+        
+    def perimeter(self):
+        result=self.__edge*4
+        print("Square perimeter "+result)
+        
+    def toString(self):
+        print("Square edge"+self.__edge)
+        
+    
+
+def Circle(Shape):
+    def __init__(self,radius):
+        self.__radius=radius
+        
+    @abstractmethod
+    def area(self): pass
+
+    @abstractmethod
+    def perimeter(self): pass
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
