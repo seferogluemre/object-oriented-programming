@@ -18,7 +18,6 @@ class WebSite1(WebSite):
 
 
 
-
 class WebSite2(WebSite):
     def __init__(self,name,surname,email):
         WebSite.__init__(self,name,surname)
@@ -32,9 +31,6 @@ class WebSite2(WebSite):
         
         
         
-        
-        
-
 
 p1 = WebSite("Ahmet", "Mehmetoglu")
 p1.login_info()
