@@ -22,7 +22,31 @@ class Monkey(Animal):
     def climb(self):
         print("Monkey can climb")
         
+        
+
+class Bird(Animal):
+    def __init__(self):
+        super().__init__()
+        print("Bird is created")
+
+    def fly(self):
+        print("Bird flying")
+
+
+
 
 m1=Monkey() 
 m1.toString()
 m1.walk()
+
+
+
+
+
+
+
+
+
+
+
+
