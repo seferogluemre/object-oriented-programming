@@ -58,9 +58,17 @@ class Emp(object):
         print(self.age / self.salary)
 
 
+
+def ageSalaryRatio(age,salary):
+    print(age / salary)
+
+
+
 emp1=Emp()
 
 emp1.ageSalaryRatio()
+
+ageSalaryRatio(emp1.age, emp1.salary)
 
 
 
