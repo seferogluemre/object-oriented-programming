@@ -26,3 +26,14 @@ print("Futbolcunun Yaşı"+str(f1.age)+" ve kulübü"+f1.football_club)
 f1.football_club="Real Madrid"
 
 print("Futbolcunun yeni kulübü :"+f1.football_club)
+
+#-----------Methods
+
+class Square(object):
+    
+    edge=5 # Meter
+    
+
+s1=Square()
+print(s1)
+print(s1.edge)
