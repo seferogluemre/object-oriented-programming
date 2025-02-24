@@ -21,14 +21,22 @@ class Calc(object):
 print("Choose Add(1), multiply(2)")
 selection = input("Select 1 or 2")
 
-v1=input("first value")
-v2=input("Second value")
+v1=int (input("first value"))
+v2=int (input("second value"))
 
-c1=Calc(int(v1), int(v2))
-add_result=c1.add()
-multiply_result=c1.multiply()
+c1=Calc(v1, v2)
 
-print("Add: {}, Multiply: {}".format(add_result, multiply_result))
+if selection=="1":
+     add_result=c1.add()
+     print("Add: {}".format(add_result))
+
+elif selection=="2":
+     multiply_result=c1.multiply()
+     print("Multiply: {}".format(multiply_result))
+
+
+
+
 
 
 
