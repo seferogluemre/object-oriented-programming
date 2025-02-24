@@ -49,6 +49,51 @@ s1.area1()
 
 
 
+class Emp(object):
+    
+    age = 25
+    salary=1000
+    
+    def ageSalaryRatio(self):
+        print(self.age / self.salary)
+
+
+emp1=Emp()
+
+emp1.ageSalaryRatio()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
